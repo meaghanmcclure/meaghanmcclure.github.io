@@ -6,7 +6,7 @@ div {
 
 a {
   color: #787C7F;
-  margin-left: 50px
+  margin-left: 50px;
 }
 
 a:visited {
@@ -77,7 +77,7 @@ a:hover {
   position: relative;
   float: right;
   width: 88%;
-  height: 600;
+  height: 600px;
   background-color: #172738;
   margin-bottom: 10px;
 }
