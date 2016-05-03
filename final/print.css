@@ -5,8 +5,8 @@
   font-size: 11pt;
 }
 
-a[href]:after {
-   content:"" !important;
+a {
+  display: none;
 }
 
 @page {
