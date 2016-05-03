@@ -48,6 +48,19 @@ h3 + p {
   margin-top: 0;
 }
 
+article {
+  page-break-before: always;
+}
+
+a[href^="#"]:after {
+   content: "";
+}
+
+ul,
+img {
+  page-break-inside: avoid;
+}
+
 main,
 article {
   position: relative;
@@ -64,9 +77,8 @@ article p > span {
   right: 0;
 }
 
-table th {
-  text-align: left;
-  padding-right: 0.2in;
+img {
+  max-width: 100%;
 }
 
 #left-col,
