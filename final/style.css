@@ -1,3 +1,13 @@
+#link {
+	color: #6D7552
+}
+
+#link a:hover,
+a:active,
+a:visited {
+	color: #9CA876
+}
+
 h1 {
 	text-align:center;
     color:#6B7451;}
