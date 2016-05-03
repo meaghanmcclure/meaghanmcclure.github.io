@@ -1,6 +1,6 @@
 h1 {
 	text-align:center;
-    color:#386890;}
+    color:#6B7451;}
 
 body {display:block;
         font-family:"Fira Sans", sans-serif;}
@@ -21,8 +21,8 @@ body {display:block;
   box-sizing: border-box;
 }
 #nav {
-  border-bottom: 3px solid #2a4e6c;
-  border-top: 3px solid #2a4e6c;
+  border-bottom: 3px solid #3B402D;
+  border-top: 3px solid #3B402D;
   padding: 0 5px;
   margin-bottom:1em;
   width: auto;
@@ -52,12 +52,12 @@ body {display:block;
   font-size: 14px;
   padding: 15px;
   text-decoration: none;
-  color: #2a4e6c;
+  color: #6D7552;
 }
 #nav ul li:hover a,
 #nav ul li a:hover,
 #nav ul li.active a {
-  color: #c7d9e8;
+  color: #9CA876;
 }
 @media all and (max-width: 640px) {
   #nav {
@@ -72,15 +72,24 @@ body {display:block;
   }
 }
 
+#headshot {display:block;
+            margin-left:auto;
+            margin-right:auto;
+           }
+
+.headshot img {
+width:50%;
+height: 50%;}
 
 h3 {text-transform:uppercase;
-    color:#4682b4;
+    color:#6B7451;
     opacity:.8;}
 
-h2 {color:#4682b4;
+h2 {color:#6B7451;
     opacity:.8;}
 
 h4 {color:#90b4d2;}
 
 .edu {border-top: 2px #6987B8;
-        }		
+        }
+.section {margin-top:50px;}
