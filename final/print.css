@@ -5,10 +5,6 @@
   font-size: 11pt;
 }
 
-a {
-  display: none;
-}
-
 @page {
   margin: 0.5in;
 }
@@ -40,20 +36,8 @@ h3, h3 + h4 {
   font-size: 14pt;
 }
 
-h3 + h4:before {
-  content: " | ";
-}
-
-h3 + p {
-  margin-top: 0;
-}
-
 article {
   page-break-before: always;
-}
-
-a[href^="#"]:after {
-   content: "";
 }
 
 ul,
@@ -61,32 +45,6 @@ img {
   page-break-inside: avoid;
 }
 
-main,
-article {
-  position: relative;
-}
-
-section {
-  margin-bottom: 0.2in;
-}
-
-article p > time,
-article p > span {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 img {
   max-width: 100%;
-}
-
-#left-col,
-#right-col {
-  max-width: 47%;
-  float: left;
-}
-
-#left-col {
-  margin-right: 6%;
 }
