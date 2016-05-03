@@ -1,8 +1,9 @@
-#link {
+a {
 	color: #6D7552
 }
 
-#link a:hover,
+a,
+a:hover,
 a:active,
 a:visited {
 	color: #9CA876
