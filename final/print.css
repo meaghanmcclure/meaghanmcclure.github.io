@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a[href^="http"] {
+  display: inline;
+}
+
 h1, h2 {
   margin: 0;
 }
@@ -34,27 +38,19 @@ h2 {
   margin-bottom: 0.2in;
 }
 
-h3, h3 + h4 {
+h3,
+h4 {
   margin: 0;
   display: inline-block;
   font-size: 14pt;
 }
 
-article {
-  page-break-before: always;
-}
-
-ul,
-img {
+ul {
   page-break-inside: avoid;
-}
-
-img {
-  max-width: 100%;
 }
 
 .experience,
 .honors,
 .skills {
-	line-height: 1.2;
+	line-height: .25in;
 }
