@@ -111,3 +111,9 @@ h5 {
 .edu {border-top: 2px #3B402D;
         }
 .section {margin-top:50px;}
+
+.experience,
+.honors,
+.skills {
+	line-height: 1;
+}
