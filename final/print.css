@@ -52,3 +52,9 @@ img {
 img {
   max-width: 100%;
 }
+
+.experience,
+.honors,
+.skills {
+	line-height: 1.2;
+}
