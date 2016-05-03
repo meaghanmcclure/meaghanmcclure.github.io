@@ -1,0 +1,72 @@
+* {
+  background: transparent;
+  color: black;
+  font-family: serif;
+  font-size: 11pt;
+}
+
+@page {
+  margin: 0.5in;
+}
+
+h1, h2 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 60pt;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1pt;
+  font-size: 16pt;
+  border-bottom: 1pt solid black;
+  margin-bottom: 0.2in;
+}
+
+h3, h3 + h4 {
+  margin: 0;
+  display: inline-block;
+  font-size: 14pt;
+}
+
+h3 + h4:before {
+  content: " | ";
+}
+
+h3 + p {
+  margin-top: 0;
+}
+
+main,
+article {
+  position: relative;
+}
+
+section {
+  margin-bottom: 0.2in;
+}
+
+article p > time,
+article p > span {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+table th {
+  text-align: left;
+  padding-right: 0.2in;
+}
+
+#left-col,
+#right-col {
+  max-width: 47%;
+  float: left;
+}
+
+#left-col {
+  margin-right: 6%;
+}
