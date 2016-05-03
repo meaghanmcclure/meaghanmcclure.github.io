@@ -5,6 +5,10 @@
   font-size: 11pt;
 }
 
+a[href]:after {
+   content:"" !important;
+}
+
 @page {
   margin: 0.5in;
 }
